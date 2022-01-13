@@ -6,6 +6,7 @@ import {HttpClientModule} from '@angular/common/http';
 import { AppComponent } from './app.component';
 import { TaskFormComponent } from './task-form.component';
 import { TodoListComponent } from './todo-list.component';
+import { TasksService } from './api/tasks.service';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,7 @@ import { TodoListComponent } from './todo-list.component';
     ReactiveFormsModule,
     HttpClientModule
   ],
-  providers: [],
+  providers: [TasksService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
