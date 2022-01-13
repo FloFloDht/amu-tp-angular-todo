@@ -9,9 +9,10 @@ import { Component } from '@angular/core';
         <h1>La Todo App</h1>
 
         <main>
+          <router-outlet></router-outlet>
         </main>
     </div>
   `,
   styles: []
 })
-export class AppComponent {}
+export class AppComponent { }
