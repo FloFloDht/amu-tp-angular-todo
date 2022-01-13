@@ -7,12 +7,14 @@ import { AppComponent } from './app.component';
 import { TaskFormComponent } from './task-form.component';
 import { TodoListComponent } from './todo-list.component';
 import { TasksService } from './api/tasks.service';
+import { TodoListPageComponent } from './pages/todo-list-page.component';
 
 @NgModule({
   declarations: [
     AppComponent, 
     TodoListComponent,
-    TaskFormComponent
+    TaskFormComponent,
+    TodoListPageComponent
   ],
   imports: [
     BrowserModule,
